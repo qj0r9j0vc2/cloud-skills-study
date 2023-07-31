@@ -3,9 +3,9 @@
 WAF에서 Create WebACL, 이후 다음으로 넘어간다.
 
 
-![](<../image/스크린샷 2023-07-31 오전 7.49.26.png>)
-![](<../image/스크린샷 2023-07-31 오전 8.02.59.png>)
-![](<../image/스크린샷 2023-07-31 오전 8.03.21.png>)
+![](<./image/스크린샷 2023-07-31 오전 7.49.26.png>)
+![](<./image/스크린샷 2023-07-31 오전 8.02.59.png>)
+![](<./image/스크린샷 2023-07-31 오전 8.03.21.png>)
 
 > AWS WAF rate-based rules can only determine access in 5 minutes.
 So please consider installing a third party WAF.
