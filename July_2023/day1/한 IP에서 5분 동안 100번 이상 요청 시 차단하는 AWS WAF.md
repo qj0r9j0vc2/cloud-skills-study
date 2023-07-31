@@ -12,3 +12,11 @@ So please consider installing a third party WAF.
 https://docs.aws.amazon.com/waf/latest/developerguide/waf-rule-statement-type-rate-based.html
 
 https://repost.aws/questions/QU_hJELbmLQt6YtIdvTBVmow/how-to-create-customize-aws-waf-rate-based-rule-for-1min-time-window
+
+
+> Q: [How to create customize AWS WAF Rate-based rule for 1min time window?](https://stackoverflow.com/questions/76040698/how-to-create-customize-aws-waf-rate-based-rule-for-1min-time-window)
+> 
+> A: Unfortunately, not possible to do it that way with WAF.
+
+https://stackoverflow.com/questions/76040698/how-to-create-customize-aws-waf-rate-based-rule-for-1min-time-window
+
