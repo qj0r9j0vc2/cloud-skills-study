@@ -60,7 +60,7 @@ $ docker tag docker-image:test 111122223333.dkr.ecr.ap-northeast-2.amazonaws.com
 $ docker push 111122223333.dkr.ecr.ap-northeast-2.amazonaws.com/hello-world:latest
 ```
 
-![](<./image/스크린샷 2023-08-01 오후 4.07.02.png>)
+![](<./image/스크린샷 2023-08-01 오후 4.07.02.png>)
 
 ## 실행 역할 생성
 
@@ -78,7 +78,7 @@ $ aws lambda create-function \
   --role arn:aws:iam::786584124104:role/lambda-ex
 ```
 
-![](<./image/스크린샷 2023-08-01 오후 4.11.03.png>)
+![](<./image/스크린샷 2023-08-01 오후 4.11.03.png>)
 
 ## 함수 호출
 
@@ -86,9 +86,9 @@ $ aws lambda create-function \
 $ aws lambda invoke --function-name hello-world response.json
 ```
 
-![](<./image/스크린샷 2023-08-01 오후 4.11.44.png>)
+![](<./image/스크린샷 2023-08-01 오후 4.11.44.png>)
 
-![](<./image/스크린샷 2023-08-01 오후 4.12.06.png>)
+![](<./image/스크린샷 2023-08-01 오후 4.12.06.png>)
 
 정상적으로 출력되는 것과 함께 함수의 생성을 확인하였다 
 
